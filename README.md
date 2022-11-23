@@ -1,27 +1,98 @@
-# IoTMonitoring
+<a name="readme-top"></a>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.4.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-## Development server
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Built With
 
-## Build
+* [![Angular][Angular.io]][Angular-url] Angular 15
+* [![TypeScript][Typescript.ts]][Typescript-url] TypeScript
+* [![sass][scss]][scss-url] Sass
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+<!-- GETTING STARTED -->
+## Installation
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+To build the app locally, follow those basic steps:
 
-## Further help
+1. Clone the repo
+   ```sh
+   git clone https://github.com/Mendzel/IoT-Monitoring.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Start json server locally
+   ```sh
+   json-server --watch db.json
+   ```
+4. Start the app locally with Angular CLI
+   ```sh
+   ng serve
+   ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+- [] ...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- CONTACT -->
+## Contact
+
+Konrad Mendzelewski - mendzelewski.dev@gmail.com
+
+My Website - https://mendzel-dev.netlify.app/
+
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/konrad-mendzelewski/?locale=en_US
+[product-screenshot]: images/screenshot.png
+[Vue.js]: https://i.imgur.com/otanP6d.png
+[Vue-url]: https://vuejs.org/
+[Angular.io]: https://i.imgur.com/3LO4PVr.png
+[Angular-url]: https://angular.io/
+[scss]: https://i.imgur.com/AwvjUa0.png
+[scss-url]: https://sass-lang.com/
+[Nuxt3]: https://i.imgur.com/7qZ2BFj.png
+[Nuxt-url]: https://nuxt.com/
+[Typescript.ts]: https://i.imgur.com/PrRfUNV.png
+[Typescript-url]: https://www.typescriptlang.org/
+[Angular-material]: https://i.imgur.com/uYZWqzq.png
+[Angular-material-url]: https://material.angular.io/
+[JavaScript]: https://i.imgur.com/Sfy6vqJ.png
+[JavaScript-url]: https://www.javascript.com/
+[Pinia]: https://i.imgur.com/ZuriW2R.png
+[Pinia-url]: https://pinia.vuejs.org/
+[Prime-vue]: https://i.imgur.com/RGz7zpH.png
+[Prime-vue-url]: https://www.primefaces.org/primevue/
