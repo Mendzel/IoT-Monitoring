@@ -1,0 +1,3 @@
+class Tram extends Transportation {
+    
+}

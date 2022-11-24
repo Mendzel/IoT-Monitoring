@@ -183,7 +183,7 @@
                 }
             ],
             "onboardComputer": {
-                "id": 10000,
+                "type": "On-board Computer",
                 "status": "OK",
                 "issueCode": null,
                 "issueType": ""
