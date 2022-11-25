@@ -1,276 +1,276 @@
 {
-    "vehicles": [
+  "vehicles": [
+    {
+      "id": 0,
+      "type": "Autobus",
+      "status": "OK",
+      "number": "10",
+      "ticketMachines": [
         {
-            "id": 0,
-            "type": "Bus",
-            "status": "OK",
-            "number": "10",
-            "ticketMachines": [
-                {
-                    "id": 10000,
-                    "devices": [
-                        {
-                            "type": "Payment Terminal",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        },
-                        {
-                            "type": "QR Reader",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        },
-                        {
-                            "type": "Thermal Printer",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        }
-                    ]
-                },
-                {
-                    "id": 10001,
-                    "devices": [
-                        {
-                            "type": "Payment Terminal",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        },
-                        {
-                            "type": "QR Reader",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        },
-                        {
-                            "type": "Thermal Printer",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        }
-                    ]
-                }
-            ],
-            "onboardComputer": {
-                "id": 10000,
-                "status": "OK",
-                "issueCode": null,
-                "issueType": ""
+          "id": 10000,
+          "devices": [
+            {
+              "type": "Terminal Płatniczy",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
+            },
+            {
+              "type": "Czytnik Kodów QR",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
+            },
+            {
+              "type": "Drukarka Termiczna",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
             }
+          ]
         },
         {
-            "id": 2,
-            "type": "Train",
-            "status": "OK",
-            "number": "IC51132",
-            "ticketMachines": [
-                {
-                    "id": 51000,
-                    "devices": [
-                        {
-                            "type": "Payment Terminal",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        },
-                        {
-                            "type": "QR Reader",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        },
-                        {
-                            "type": "Thermal Printer",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        }
-                    ]
-                },
-                {
-                    "id": 51001,
-                    "devices": [
-                        {
-                            "type": "Payment Terminal",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        },
-                        {
-                            "type": "QR Reader",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        },
-                        {
-                            "type": "Thermal Printer",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        }
-                    ]
-                },
-                {
-                    "id": 51002,
-                    "devices": [
-                        {
-                            "type": "Payment Terminal",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        },
-                        {
-                            "type": "QR Reader",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        },
-                        {
-                            "type": "Thermal Printer",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        }
-                    ]
-                },
-                {
-                    "id": 51003,
-                    "devices": [
-                        {
-                            "type": "Payment Terminal",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        },
-                        {
-                            "type": "QR Reader",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        },
-                        {
-                            "type": "Thermal Printer",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        }
-                    ]
-                },
-                {
-                    "id": 51004,
-                    "devices": [
-                        {
-                            "type": "Payment Terminal",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        },
-                        {
-                            "type": "QR Reader",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        },
-                        {
-                            "type": "Thermal Printer",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        }
-                    ]
-                }
-            ],
-            "onboardComputer": {
-                "type": "On-board Computer",
-                "status": "OK",
-                "issueCode": null,
-                "issueType": ""
+          "id": 10001,
+          "devices": [
+            {
+              "type": "Terminal Płatniczy",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
+            },
+            {
+              "type": "Czytnik Kodów QR",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
+            },
+            {
+              "type": "Drukarka Termiczna",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
             }
-        },
-        {
-            "id": 1,
-            "type": "Tram",
-            "status": "OK",
-            "number": "33",
-            "ticketMachines": [
-                {
-                    "id": 33000,
-                    "devices": [
-                        {
-                            "type": "Payment Terminal",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        },
-                        {
-                            "type": "QR Reader",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        },
-                        {
-                            "type": "Thermal Printer",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        }
-                    ]
-                },
-                {
-                    "id": 33001,
-                    "devices": [
-                        {
-                            "type": "Payment Terminal",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        },
-                        {
-                            "type": "QR Reader",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        },
-                        {
-                            "type": "Thermal Printer",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        }
-                    ]
-                },
-                {
-                    "id": 33002,
-                    "devices": [
-                        {
-                            "type": "Payment Terminal",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        },
-                        {
-                            "type": "QR Reader",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        },
-                        {
-                            "type": "Thermal Printer",
-                            "status": "OK",
-                            "issueCode": null,
-                            "issueType": ""
-                        }
-                    ]
-                }
-            ],
-            "onboardComputer": {
-                "id": 10000,
-                "status": "OK",
-                "issueCode": null,
-                "issueType": ""
-            }
+          ]
         }
-    ]
+      ],
+      "onboardComputer": {
+        "type": "Komputer Pokładowy",
+        "status": "OK",
+        "issueCode": null,
+        "issueType": ""
+      }
+    },
+    {
+      "id": 2,
+      "type": "Pociąg",
+      "status": "OK",
+      "number": "IC51132",
+      "ticketMachines": [
+        {
+          "id": 51000,
+          "devices": [
+            {
+              "type": "Terminal Płatniczy",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
+            },
+            {
+              "type": "Czytnik Kodów QR",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
+            },
+            {
+              "type": "Drukarka Termiczna",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
+            }
+          ]
+        },
+        {
+          "id": 51001,
+          "devices": [
+            {
+              "type": "Terminal Płatniczy",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
+            },
+            {
+              "type": "Czytnik Kodów QR",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
+            },
+            {
+              "type": "Drukarka Termiczna",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
+            }
+          ]
+        },
+        {
+          "id": 51002,
+          "devices": [
+            {
+              "type": "Terminal Płatniczy",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
+            },
+            {
+              "type": "Czytnik Kodów QR",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
+            },
+            {
+              "type": "Drukarka Termiczna",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
+            }
+          ]
+        },
+        {
+          "id": 51003,
+          "devices": [
+            {
+              "type": "Terminal Płatniczy",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
+            },
+            {
+              "type": "Czytnik Kodów QR",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
+            },
+            {
+              "type": "Drukarka Termiczna",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
+            }
+          ]
+        },
+        {
+          "id": 51004,
+          "devices": [
+            {
+              "type": "Terminal Płatniczy",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
+            },
+            {
+              "type": "Czytnik Kodów QR",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
+            },
+            {
+              "type": "Drukarka Termiczna",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
+            }
+          ]
+        }
+      ],
+      "onboardComputer": {
+        "type": "Komputer Pokładowy",
+        "status": "OK",
+        "issueCode": null,
+        "issueType": ""
+      }
+    },
+    {
+      "id": 1,
+      "type": "Tramwaj",
+      "status": "OK",
+      "number": "33",
+      "ticketMachines": [
+        {
+          "id": 33000,
+          "devices": [
+            {
+              "type": "Terminal Płatniczy",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
+            },
+            {
+              "type": "Czytnik Kodów QR",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
+            },
+            {
+              "type": "Drukarka Termiczna",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
+            }
+          ]
+        },
+        {
+          "id": 33001,
+          "devices": [
+            {
+              "type": "Terminal Płatniczy",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
+            },
+            {
+              "type": "Czytnik Kodów QR",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
+            },
+            {
+              "type": "Drukarka Termiczna",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
+            }
+          ]
+        },
+        {
+          "id": 33002,
+          "devices": [
+            {
+              "type": "Terminal Płatniczy",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
+            },
+            {
+              "type": "Czytnik Kodów QR",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
+            },
+            {
+              "type": "Drukarka Termiczna",
+              "status": "OK",
+              "issueCode": null,
+              "issueType": ""
+            }
+          ]
+        }
+      ],
+      "onboardComputer": {
+        "type": "Komputer Pokładowy",
+        "status": "OK",
+        "issueCode": null,
+        "issueType": ""
+      }
+    }
+  ]
 }

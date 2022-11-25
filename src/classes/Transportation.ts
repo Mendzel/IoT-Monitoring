@@ -16,5 +16,6 @@ export abstract class Transportation implements Vehicle {
         this.number = passedVehicle.number;
         this.ticketMachines = passedVehicle.ticketMachines;
         this.onboardComputer = passedVehicle.onboardComputer;
+        this.status = passedVehicle.status;
     }
 }

@@ -10,9 +10,16 @@
     </tr>
   </ng-template>
   <ng-template pTemplate="body" let-vehicle>
-    <tr class="table__row">
+    <tr class="table__row" (click)="onVehicleSelection(vehicle)">
       <td>{{ vehicle.number }}</td>
-      <td>{{ vehicle.type }}</td>
+      <td>
+        <img
+          class="table__row-icon"
+          [src]="assignVehicleIcon(vehicle.type)"
+          [alt]="vehicle.type"
+        />
+        {{ vehicle.type }}
+      </td>
       <td>{{ vehicle.status }}</td>
     </tr>
   </ng-template>

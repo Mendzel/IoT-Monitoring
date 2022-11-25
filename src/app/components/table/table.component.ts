@@ -1,6 +1,6 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { TYPES_OF_VEHICLES } from 'src/app/constants';
 
-import { STATUSES, TYPES_OF_VEHICLES } from 'src/app/constants';
 import { Vehicle } from 'src/interfaces/Vehicle';
 
 @Component({
@@ -10,11 +10,25 @@ import { Vehicle } from 'src/interfaces/Vehicle';
 })
 export class TableComponent implements OnInit {
   @Input() tableData: Vehicle[] = [];
-  typesOfVehicles: String[] = TYPES_OF_VEHICLES;
-  statuses: String[] = STATUSES;
-
-  constructor() { }
+  @Output() vehicleSelection: EventEmitter<Vehicle> = new EventEmitter();
 
   ngOnInit(): void {
+  }
+
+  onVehicleSelection(vehicle: Vehicle) {
+    this.vehicleSelection.emit(vehicle);
+  }
+
+  assignVehicleIcon(type: string) {
+    switch (type) {
+      case TYPES_OF_VEHICLES.BUS:
+        return "../../../assets/images/bus-icon.png"
+      case TYPES_OF_VEHICLES.TRAIN:
+        return "../../../assets/images/train-icon.png"
+      case TYPES_OF_VEHICLES.TRAM:
+        return "../../../assets/images/tram-icon.png"
+      default:
+        return ""
+    }
   }
 }

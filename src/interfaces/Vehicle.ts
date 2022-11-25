@@ -7,5 +7,5 @@ export interface Vehicle {
     number: string,
     ticketMachines: TicketMachine[],
     onboardComputer: Device,
-    status: string | null
+    status: string
 }
