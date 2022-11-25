@@ -1,0 +1,29 @@
+.device {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px;
+  border: 1px solid gray;
+  min-height: 200px;
+  min-width: 200px;
+  margin-top: 10px;
+
+  &__title {
+    font-weight: bold;
+  }
+
+  &__image {
+    &-wrapper {
+      width: 100px;
+      height: 100px;
+      margin: 20px 0;
+      display: flex;
+    }
+
+    img {
+      height: 100px;
+      margin: auto;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+<div class="device">
+  <div class="device__title">
+    {{ device.type }}
+  </div>
+
+  <div class="device__image">
+    <div class="device__image-wrapper">
+      <img [src]="assignImage(device.type)" [alt]="device.type" />
+    </div>
+  </div>
+
+  <div class="device__status">Status: {{ device.status }}</div>
+</div>

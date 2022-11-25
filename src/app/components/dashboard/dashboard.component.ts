@@ -13,6 +13,8 @@ import { VehiclesService } from 'src/services/vehicles.service';
 
 export class DashboardComponent implements OnInit {
   vehiclesArray: Vehicle[] = [];
+  displayModal: boolean = false;
+  selectedVehicle!: Vehicle;
 
   constructor(private vehicleService: VehiclesService) { }
 
@@ -26,17 +28,26 @@ export class DashboardComponent implements OnInit {
 
   assignVehicleType(vehicle: Vehicle) {
     switch (vehicle.type) {
-      case "Bus":
+      case "Autobus":
         this.vehiclesArray.push(new Bus(vehicle));
         break;
-      case "Train":
+      case "Pociąg":
         this.vehiclesArray.push(new Train(vehicle));
         break;
-      case "Tram":
+      case "Tramwaj":
         this.vehiclesArray.push(new Tram(vehicle));
         break;
       default:
         console.log(`Check your database, ${vehicle.type} is not a type of vehicle.`);
     }
+  }
+
+  openModalWithSelectedVehicle(vehicle: Vehicle) {
+    this.displayModal = true;
+    this.selectedVehicle = vehicle;
+  }
+
+  hideModal() {
+    this.displayModal = false;
   }
 }

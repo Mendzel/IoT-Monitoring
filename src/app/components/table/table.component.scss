@@ -1,7 +1,12 @@
 .table {
-  min-width: 50rem;
+  width: 50%;
 
   &__row {
     cursor: pointer;
+    font-weight: bold;
+
+    &-icon {
+      width: 40px;
+    }
   }
 }

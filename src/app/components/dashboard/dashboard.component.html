@@ -1,3 +1,13 @@
 <div>
-  <app-table [tableData]="vehiclesArray"></app-table>
+  <app-table
+    (vehicleSelection)="openModalWithSelectedVehicle($event)"
+    [tableData]="vehiclesArray"
+  ></app-table>
+
+  <app-dialog
+    *ngIf="displayModal"
+    [displayModal]="displayModal"
+    [modalData]="selectedVehicle"
+    (modalClosed)="hideModal()"
+  ></app-dialog>
 </div>
