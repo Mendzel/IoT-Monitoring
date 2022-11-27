@@ -1,0 +1,9 @@
+<div>Wyświetl typ pojazdu:</div>
+
+<p-listbox
+  class="filter"
+  [options]="typesOfVehicles"
+  [(ngModel)]="selectedType"
+  (ngModelChange)="onSelectionChange($event)"
+  optionLabel="name"
+></p-listbox>

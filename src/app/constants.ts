@@ -1,6 +1,7 @@
 export const SERVER_URL = "http://localhost:3000";
 
 export const TYPES_OF_VEHICLES = {
+    ALL: "Wszystkie",
     BUS: "Autobus",
     TRAIN: "Pociąg",
     TRAM: "Tramwaj"
