@@ -1,4 +1,8 @@
-<p-table [value]="tableData" [rowHover]="true" class="table">
+<app-filter-picker
+  (selectionChanged)="onFilterSelection($event)"
+></app-filter-picker>
+
+<p-table [value]="dataToDisplay" [rowHover]="true" class="table">
   <ng-template pTemplate="caption">
     <div class="table-header">Lista pojazdów</div>
   </ng-template>

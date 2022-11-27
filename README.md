@@ -15,7 +15,24 @@ Jak w tytule
 ```sh
 Podstawowe widoki dla dashboardu, navbar z tytułem (bez przycisków akcji).
 Przygotowane interfejsów pod potrzebne dane z mocków.
-Pomysł na klasy: Jedna bazowa klasa abstrakcyjna dla wszystkich pojazdów, rozszerzana o dodatkowe pola i metody dla każdego typu pojazdu. W tym przypadku funkcjonalność na tyle okrojona, że klasy dziedziczące raczej zostaną puste, ale zamysł pod dalsze rozszerzanie funkcjonalności.
+Pomysł na klasy: Jedna bazowa klasa abstrakcyjna dla wszystkich pojazdów,
+rozszerzana o dodatkowe pola i metody dla każdego typu pojazdu. W tym przypadku funkcjonalność na tyle okrojona,
+że klasy dziedziczące raczej zostaną puste, ale zamysł pod dalsze rozszerzanie funkcjonalności.
+```
+
+### 3. Vehicle modal, events and data passing. Adding images (not optimized)
+
+```sh
+Utworzenie modala dla wybranego pojazdu.
+Przekazanie w ramach eventu danych pojazdu i wyświetlenie ich w modalu.
+Podział na biletomaty i komputer pokładowy, wyświetlenie statusu urządzeń.
+```
+
+### 4. Table filtering
+
+```sh
+Dodanie filtrowania po typach pojazdu. Basic picker zaciągnięty z PrimeNG odpalający event gdy value pickera się zmienia.
+Utworzenie zmiennej do przechowywania tymczasowych arrayów, której wartość jest nadpisywana w przypadku filtrowania.
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -66,8 +83,8 @@ Use this space to show useful examples of how a project can be used. Additional 
 
 - [x] Dodanie widoku tabeli
 - [x] Dodanie szczegółów każdego pojazdu
-- [] Filtrowanie po pojazdach
-- [] Ostylowanie
+- [x] Filtrowanie po pojazdach
+- [] Ostylowanie tabeli i dashboardu
 - [] Obsługa statusów
 - [] Wyświetlanie komunikatu z błędem
 - [] Dodanie testów jednostkowych

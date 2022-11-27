@@ -9,10 +9,12 @@ import { Vehicle } from 'src/interfaces/Vehicle';
   styleUrls: ['./table.component.scss']
 })
 export class TableComponent implements OnInit {
-  @Input() tableData: Vehicle[] = [];
+  @Input() vehiclesArray: Vehicle[] = [];
   @Output() vehicleSelection: EventEmitter<Vehicle> = new EventEmitter();
+  dataToDisplay: Vehicle[] = [];
 
   ngOnInit(): void {
+    this.dataToDisplay = this.vehiclesArray;
   }
 
   onVehicleSelection(vehicle: Vehicle) {
@@ -30,5 +32,15 @@ export class TableComponent implements OnInit {
       default:
         return ""
     }
+  }
+
+  onFilterSelection(typeSelected: string) {
+    typeSelected === TYPES_OF_VEHICLES.ALL ? this.dataToDisplay = this.vehiclesArray : this.filterTable(typeSelected);
+  }
+
+  filterTable(type: string) {
+    this.dataToDisplay = this.vehiclesArray.filter(vehicle => {
+      return vehicle.type === type
+    });
   }
 }
