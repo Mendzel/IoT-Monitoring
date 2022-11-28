@@ -13,6 +13,7 @@ import { TabsViewComponent } from './components/dialog/tabs-view/tabs-view.compo
 import { TabComponent } from './components/dialog/tabs-view/tab/tab.component';
 import { DeviceComponent } from './components/dialog/tabs-view/device/device.component';
 import { FilterPickerComponent } from './components/filter-picker/filter-picker.component';
+import { StatusIndicatorComponent } from './components/status-indicator/status-indicator.component';
 
 import { TableModule } from 'primeng/table';
 import { DialogModule } from 'primeng/dialog';
@@ -32,7 +33,8 @@ import { ListboxModule } from 'primeng/listbox';
     TabsViewComponent,
     TabComponent,
     DeviceComponent,
-    FilterPickerComponent
+    FilterPickerComponent,
+    StatusIndicatorComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,8 @@
 .tab {
+  &__ticket-machine {
+    font-weight: bold;
+  }
+
   &__expansion {
     width: 100%;
     display: flex;

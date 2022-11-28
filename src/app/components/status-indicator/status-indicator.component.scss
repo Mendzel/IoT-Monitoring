@@ -1,0 +1,23 @@
+.status-indicator {
+  font-weight: bold;
+  padding: 2px;
+  text-align: center;
+  min-width: 100px;
+  width: fit-content;
+  text-transform: uppercase;
+}
+
+.OK {
+  background-color: rgb(190, 226, 190);
+  color: rgb(0, 174, 0);
+}
+
+.Warning {
+  background-color: rgb(239, 207, 156);
+  color: rgb(255, 128, 0);
+}
+
+.Failure {
+  background-color: rgb(239, 156, 156);
+  color: rgb(255, 0, 0);
+}

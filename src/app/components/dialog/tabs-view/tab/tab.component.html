@@ -17,7 +17,12 @@
             [icon]="expanded ? 'pi pi-chevron-down' : 'pi pi-chevron-right'"
           ></button>
         </td>
-        <td>Biletomat {{ i + 1 }}</td>
+        <td
+          [ngStyle]="{ color: checkDevices(machine) }"
+          class="tab__ticket-machine"
+        >
+          Biletomat {{ i + 1 }}
+        </td>
       </tr>
     </ng-template>
     <ng-template pTemplate="rowexpansion" let-machine>

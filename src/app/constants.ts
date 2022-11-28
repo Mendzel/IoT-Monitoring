@@ -14,4 +14,8 @@ export const TYPES_OF_DEVICES = {
     COMPUTER: "Komputer Pokładowy"
 }
 
-export const STATUSES = ["OK", "Warning", "Fail"];
+export const STATUSES = {
+    OK: "OK",
+    WARN: "Warning",
+    FAIL: "Failure"
+}

@@ -24,7 +24,9 @@
         />
         {{ vehicle.type }}
       </td>
-      <td>{{ vehicle.status }}</td>
+      <td>
+        <app-status-indicator [status]="vehicle.status"></app-status-indicator>
+      </td>
     </tr>
   </ng-template>
 </p-table>
