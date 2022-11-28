@@ -14,4 +14,10 @@ export class VehiclesService {
     // TODO Obsługa błędu
     return this.http.get<Vehicle[]>(SERVER_URL + '/vehicles');
   }
+
+  updateVehicle(vehicleToUpdate: Vehicle): Observable<Vehicle> {
+    const url = SERVER_URL + '/vehicles/' + vehicleToUpdate.id;
+
+    return this.http.put<Vehicle>(url, vehicleToUpdate);
+  }
 }

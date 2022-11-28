@@ -1,9 +1,9 @@
 {
   "vehicles": [
     {
+      "status": "Warning",
       "id": 0,
       "type": "Autobus",
-      "status": "OK",
       "number": "10",
       "ticketMachines": [
         {
@@ -40,7 +40,7 @@
             },
             {
               "type": "Czytnik Kodów QR",
-              "status": "OK",
+              "status": "Warning",
               "issueCode": null,
               "issueType": ""
             },
@@ -61,7 +61,7 @@
       }
     },
     {
-      "id": 2,
+      "id": 1,
       "type": "Pociąg",
       "status": "OK",
       "number": "IC51132",
@@ -190,9 +190,9 @@
       }
     },
     {
-      "id": 1,
+      "status": "Failure",
+      "id": 2,
       "type": "Tramwaj",
-      "status": "OK",
       "number": "33",
       "ticketMachines": [
         {
@@ -206,7 +206,7 @@
             },
             {
               "type": "Czytnik Kodów QR",
-              "status": "OK",
+              "status": "Warning",
               "issueCode": null,
               "issueType": ""
             },
@@ -235,7 +235,7 @@
             },
             {
               "type": "Drukarka Termiczna",
-              "status": "OK",
+              "status": "Failure",
               "issueCode": null,
               "issueType": ""
             }

@@ -85,9 +85,10 @@ Use this space to show useful examples of how a project can be used. Additional 
 - [x] Dodanie szczegółów każdego pojazdu
 - [x] Filtrowanie po pojazdach
 - [] Ostylowanie tabeli i dashboardu
-- [] Obsługa statusów
+- [x] Obsługa statusów
 - [] Wyświetlanie komunikatu z błędem
-- [] Dodanie testów jednostkowych
+- [] Dodanie testów jednostkowych, obsługa błędów
+- [] Sprzątanie importów i modułów
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

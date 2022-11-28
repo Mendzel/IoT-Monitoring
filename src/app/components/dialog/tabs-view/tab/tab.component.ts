@@ -10,10 +10,29 @@ import { TicketMachine } from 'src/interfaces/TicketMachine';
 export class TabComponent implements OnInit {
   @Input() ticketMachines!: TicketMachine[];
   @Input() computer!: Device;
-  isMoreThanOneDevice!: boolean;
-  constructor() { }
 
   ngOnInit(): void {
-    console.log(this.ticketMachines);
+  }
+
+  checkDevices(machine: TicketMachine) {
+    let anyWarnings: boolean = false;
+    let anyFailures: boolean = false;
+
+    machine.devices.forEach((device): void => {
+      if (device.status === "Failure") {
+        anyFailures = true;
+        return
+      } else if (device.status === "Warning") {
+        anyWarnings = true;
+      }
+    });
+
+    if (anyFailures) {
+      return "red"
+    } else if (anyWarnings) {
+      return "orange"
+    } else {
+      return "black"
+    }
   }
 }
