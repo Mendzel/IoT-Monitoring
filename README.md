@@ -7,32 +7,32 @@
 ### 1. Creating repo + prettier config + installing PrimeNG and JSON Server
 
 ```sh
-Jak w tytule
+Like in the title
 ```
 
 ### 2. Created base view, interfaces and classes
 
 ```sh
-Podstawowe widoki dla dashboardu, navbar z tytułem (bez przycisków akcji).
-Przygotowane interfejsów pod potrzebne dane z mocków.
-Pomysł na klasy: Jedna bazowa klasa abstrakcyjna dla wszystkich pojazdów,
-rozszerzana o dodatkowe pola i metody dla każdego typu pojazdu. W tym przypadku funkcjonalność na tyle okrojona,
-że klasy dziedziczące raczej zostaną puste, ale zamysł pod dalsze rozszerzanie funkcjonalności.
+Basic dashboard views, navbar with title (no action buttons).
+Prepared interfaces for the necessary data from mocks.
+Class idea: One base abstract class for all vehicles,
+expanded with additional fields and methods for each type of vehicle. In this case, the functionality is so limited that
+that the inheriting classes will rather be empty, but the idea for further extending the functionality.
 ```
 
 ### 3. Vehicle modal, events and data passing. Adding images (not optimized)
 
 ```sh
-Utworzenie modala dla wybranego pojazdu.
-Przekazanie w ramach eventu danych pojazdu i wyświetlenie ich w modalu.
-Podział na biletomaty i komputer pokładowy, wyświetlenie statusu urządzeń.
+Create a modal for the selected vehicle.
+Transmission of vehicle data as part of the event and displaying them in the modal.
+Division into ticket machines and on-board computer, displaying the status of devices.
 ```
 
 ### 4. Table filtering
 
 ```sh
-Dodanie filtrowania po typach pojazdu. Basic picker zaciągnięty z PrimeNG odpalający event gdy value pickera się zmienia.
-Utworzenie zmiennej do przechowywania tymczasowych arrayów, której wartość jest nadpisywana w przypadku filtrowania.
+Added filtering by vehicle types. Basic picker taken from PrimeNG firing event when picker value changes.
+Create a variable to store temporary arrays whose value is overwritten when filtering.
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
